@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f771ca;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px #999B84(0, 0, 0, 0.1);
+}
+
+#services #private-area {
+    background-color: #F4EEED;
+    padding: 10px;
+    margin-top: 10px;
+}
+#services { 
+    margin-top: 20px;
+}
+
+
+#pricing ul,
+#body-care ul,
+#face-care ul,
+#hand-care ul,
+#foot-care ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pricing li,
+#body-care li,
+#face-care li,
+#hand-care li,
+#foot-care li {
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#pricing img,
+#body-care img,
+#face-care img,
+#hand-care img,
+#foot-care img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+}
+
+#gallery {
+    margin-top: 50px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: calc(25% - 10px); 
+    border-radius: 5px;
+}
+
+form label {
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0f0f0f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #DDB7AB(0, 0%, 20%);
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#about-gallery {
+    margin-top: 50px;
+}
+
+.about-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.about-gallery-container img {
+    width: calc(30% - 10px); 
+    border-radius: 5px; 
+}
